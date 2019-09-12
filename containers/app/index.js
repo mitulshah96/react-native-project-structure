@@ -16,22 +16,17 @@ import {
   StatusBar,
 } from 'react-native';
 
-import { Card, CardSection, Header } from '../../src/components/common';
+import { Header } from "../../src/components/common";
+
+import ClothesListItem from "../../src/ClothesListItem";
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor="#fff" />
       <SafeAreaView>
-        <Header headText="Hello" 
-        />
-        <View style={{backgroundColor: '#fff'}}>
-          <Card>
-            <CardSection>
-              <Text>Hello World</Text>
-            </CardSection>
-          </Card>
-        </View>
+        <Header headText="Hello" />
+          <ClothesListItem />
       </SafeAreaView>
     </>
   );
