@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Alert } from "react-native";
 import { Card, CardSection, Button } from "../components/common";
 import styles from "./styles"
 
@@ -24,7 +24,7 @@ export default ListItem = (props) => {
                 </CardSection>
 
                 <CardSection>
-                    <Button>
+                    <Button onPress={() => Alert.alert("Item Added")}>
                         Buy Now
                     </Button>
                 </CardSection>
