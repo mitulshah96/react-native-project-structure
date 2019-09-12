@@ -2,19 +2,22 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   mainViewStyle: {
+    flexDirection: 'row',
     height: 60,
-    justifyContent: "center", // It is used to adjust Items in Vertical Directions i.e Downwards Direction
-    alignItems: "center", // It is used to adjust Items in Horizontal Directions i.e Sideways Direction
-    backgroundColor: "#f8f8f8",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    elevation: 5,
-    position: "relative"
+    backgroundColor: "#fff",
   },
   viewText: {
-    fontSize: 20,
-    fontWeight: "normal",
-    color: "#007aff"
+    fontSize: 25,
+    fontFamily: "Roboto-Bold",
+    textAlign: 'left',
+    marginLeft: 15,
+    color: "#333",
+    paddingTop: 18
+  },
+  imageStyle: {
+    width: 25, 
+    height: 25, 
+    marginLeft: 20, 
+    marginTop: 20
   }
 });

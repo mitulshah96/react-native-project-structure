@@ -8,12 +8,8 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
   StatusBar,
+  SafeAreaView
 } from 'react-native';
 
 import { Header } from "../../src/components/common";
@@ -23,11 +19,11 @@ import ClothesListItem from "../../src/ClothesListItem";
 const App = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" backgroundColor="#fff" />
-      <SafeAreaView>
-        <Header headText="Hello" />
+          <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+          <SafeAreaView>
+            <Header headText="Our Products" />
+          </SafeAreaView>
           <ClothesListItem />
-      </SafeAreaView>
     </>
   );
 };
