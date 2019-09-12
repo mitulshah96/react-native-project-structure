@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AssignmentTests.m */; };
 		431140D0CD0D2DC834F13702 /* libPods-Assignment-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFAF4A08B848F48EA4666F4 /* libPods-Assignment-tvOSTests.a */; };
 		4A739A0476AB88C54DA3F6D6 /* libPods-Assignment-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A387C5EE035B3CF63878FE2D /* libPods-Assignment-tvOS.a */; };
+		732406DE5B1EE582241F11AE /* libPods-Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61291F9DE503AFF35C0B6996 /* libPods-Assignment.a */; };
 		FE747ACAAA5CDFEDE9D4DCAC /* libPods-AssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879FF997371E1FD7AD848051 /* libPods-AssignmentTests.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732406DE5B1EE582241F11AE /* libPods-Assignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
