@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import { Card, CardSection, Button } from "../components/common";
+import styles from "./styles"
 
 export default ListItem = (props) => {
 
@@ -9,20 +10,16 @@ export default ListItem = (props) => {
     return(
             <Card>
                 <CardSection>
-                    <View style={{ flexDirection: "column" }}>
-                        <Text style={{ fontFamily: "Roboto-Bold" }}>{name}</Text>
-                        <Text>{description}</Text>
+                    <View style={styles.itemNameViewStyle}>
+                        <Text style={styles.itemNameTextStyle}>{name}</Text>
+                        <Text style={styles.itemDescriptionTextStyle}>{description}</Text>
                     </View>
                 </CardSection>
 
                 <CardSection>
                     <Image 
                         source={icon}
-                        style={{
-                            height: 300,
-                            flex: 1,
-                            width: null                        
-                        }}
+                        style={styles.imageStyle}
                     />
                 </CardSection>
 

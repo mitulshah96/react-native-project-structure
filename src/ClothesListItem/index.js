@@ -38,7 +38,7 @@ export default class ClothesListItem extends Component {
                 data={clothesData}
                 renderItem={this.renderItem}
                 keyExtractor={(item, index) => index.toString()}
-                contentContainerStyle={{ paddingBottom: 70, backgroundColor: "#FFF" }}
+                contentContainerStyle={{ paddingBottom: 15, backgroundColor: "#FFF" }}
                 showsVerticalScrollIndicator={false}
             />
         )
